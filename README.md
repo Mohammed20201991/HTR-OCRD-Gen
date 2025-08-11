@@ -46,3 +46,10 @@ htr_ocr_generator/
 └── tests/
     └── test_basic.py
 ```
+
+
+
+```
+from htr_generator.api import generate
+generate('configs/default.yaml', out_dir='out_dataset', count=1000, mode='line')
+```

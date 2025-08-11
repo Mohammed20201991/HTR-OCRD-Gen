@@ -1,0 +1,17 @@
+# core
+Pillow>=9.0.0
+numpy>=1.21
+opencv-python
+pyyaml
+Faker
+imgaug
+tqdm
+python-box
+
+# optional (wrapped if available)
+trdg
+# synthtext often requires special deps: freetype, compiling C++ models; wrapper is optional
+
+# exporters
+lxml  # for PAGE-XML
+pycocotools

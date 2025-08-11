@@ -1,0 +1,7 @@
+htr-gen --out out_dataset --count 5000 --mode line
+generator: pillow # or 'trdg'
+fonts:
+  dirs:
+    - data/fonts
+backgrounds:
+  - data/background
